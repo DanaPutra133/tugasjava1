@@ -1,4 +1,4 @@
-public class Apel {
+public class Buah {
     private String warna;
     private String teksturKulit;
     private String teksturDaging;
@@ -8,7 +8,7 @@ public class Apel {
     private String kegunaan;
 
     /* ini  constructor */
-    public Apel(String warna, String teksturKulit, String teksturDaging, String rasa, boolean mateng, String aroma, String kegunaan) {
+    public Buah(String warna, String teksturKulit, String teksturDaging, String rasa, boolean mateng, String aroma, String kegunaan) {
         this.warna = warna;
         this.teksturKulit = teksturKulit;
         this.teksturDaging = teksturDaging;
@@ -47,7 +47,7 @@ public class Apel {
                 System.out.println("Tekstur daging apel tidak dikenal");
         }
     }
-i
+
     /* method masak */
 
     public void masak() {
@@ -56,17 +56,9 @@ i
 
 
     public static void main(String[] args) {
-        Apel apel1 = new Apel("merah", "halus", "kasar", "manis", true, "harum", "rujak");
+        Buah apel1 = new Buah("merah", "halus", "kasar", "manis", true, "harum", "rujak");
         apel1.gettekstur();
         apel1.setmateng();
         apel1.masak();
     }
 }
-
-
-
-
-
-
-
-
