@@ -47,7 +47,7 @@ public class Apel {
                 System.out.println("Tekstur daging apel tidak dikenal");
         }
     }
-i
+
     /* method masak */
 
     public void masak() {
