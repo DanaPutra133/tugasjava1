@@ -51,7 +51,7 @@ public class Apel {
     /* method masak */
 
     public void masak() {
-        System.out.println("Apel dimasak menjadi " + kegunaan);
+        System.out.println("Apel dibuat menjadi " + kegunaan);
     }
 
 
