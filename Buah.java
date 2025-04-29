@@ -32,6 +32,8 @@ public class Buah {
 
     /* select case  */
 
+    /* method masak */
+
     public void gettekstur() {
         switch(teksturDaging) {
             case "kasar":
@@ -47,8 +49,6 @@ public class Buah {
                 System.out.println("Tekstur daging apel tidak dikenal");
         }
     }
-
-    /* method masak */
 
     public void masak() {
         System.out.println("Apel dibuat menjadi " + kegunaan);
